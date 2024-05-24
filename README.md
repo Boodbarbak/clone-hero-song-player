@@ -46,7 +46,7 @@ These steps may take a while depending on how many songs there are in your libra
 
 ## License
 
-This project is licensed under the Creative Commons Zero v1.0 Universal license. For more information, please see the [https://creativecommons.org/publicdomain/zero/1.0/](LICENSE) file.
+This project is licensed under the Creative Commons Zero v1.0 Universal license. For more information, please see the [LICENSE](LICENSE) file.
 
 ## Contributing
 
