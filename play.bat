@@ -15,7 +15,7 @@ if not exist song_dirs.txt (
 REM Check if there is a saved state
 if exist song_dirs_shuffled.txt (
     echo Resuming from saved state...
-    for /F "tokens=1* delims=:" %%a in (last_played_index.txt) do set "last_index=%%a"
+    for /F "tokens=1* delims=" %%a in (last_played_index.txt) do set "last_index=%%a"
     set "resume=true"
 ) else (
     REM Shuffle the list of song directories
